@@ -1,5 +1,3 @@
-Absolutely! Here is a **GitHub-ready README** about **Importing Modules in Python** ✅
-Icons ✓ Images ✓ Buttons ✓ Examples ✓ Clear structure ✓
 
 ---
 
