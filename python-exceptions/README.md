@@ -1,6 +1,3 @@
-Got it! ✅
-Here is an **updated version** of the README with **buttons + extra images/icons** included — GitHub-ready ✅
-(You can copy–paste directly)
 
 ---
 
