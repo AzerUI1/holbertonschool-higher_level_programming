@@ -1,5 +1,3 @@
-Absolutely — here is a **clean, modern, GitHub-ready README** for **Python Introduction** ✅
-Includes icons, images, buttons, examples, and beginner-friendly structure 👇
 
 ---
 
