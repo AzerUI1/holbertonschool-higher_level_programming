@@ -154,6 +154,6 @@ except InvalidAgeError as e:
 
 ---
 
-### ⭐ Want even more?
+
 
 
