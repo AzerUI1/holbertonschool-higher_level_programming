@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Module that defines a function to read the content of a text file.'''
+'''Module that defines a function to convert an object to a JSON string.'''
 
 
 def to_json_string(my_obj):
