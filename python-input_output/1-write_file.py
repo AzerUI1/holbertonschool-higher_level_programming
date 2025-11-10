@@ -7,6 +7,6 @@ def write_file(filename="", text=""):
     with open(filename, 'w', encoding='utf-8') as txt_file:
         content = txt_file.write(text)
         try:
-            return content 
+            return content
         finally:
-            txt_file.close() 
+            txt_file.close()
