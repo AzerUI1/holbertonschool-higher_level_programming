@@ -8,7 +8,6 @@
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Language-Python-blue?logo=python"></a>
   <a href="#"><img src="https://img.shields.io/badge/Framework-Flask-orange?logo=flask"></a>
-  <a href="#"><img src="https://img.shields.io/badge/License-MIT-green"></a>
 </p>
 
 ---
@@ -126,22 +125,6 @@ if __name__ == '__main__':
 <p align="center">
   <img src="https://i.imgur.com/H9D7NvT.png" width="600">
 </p>
-
----
-
-## 📥 Installation
-
-```bash
-git clone https://github.com/yourusername/restful-api-guide.git
-cd restful-api-guide
-pip install flask
-python app.py
-```
-
----
-
-## 🧾 License
-This project is licensed under the MIT License.
 
 ---
 
