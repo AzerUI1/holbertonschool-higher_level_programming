@@ -1,13 +1,23 @@
 #!/usr/bin/python3
-# Lists all states from the database hbtn_0e_0_usa.
-# Usage: ./0-select_states.py <mysql username> \
-#                             <mysql password> \
-#                             <database name>
-import sys
-import MySQLdb
+"""Module for Selecting states"""
 
-if __name__ == "__main__":
-    db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
-    c = db.cursor()
-    c.execute("SELECT * FROM `states`")
-    [print(state) for state in c.fetchall()]
+if __name__ == '__main__':
+    from sys import argv
+    import MySQLdb
+
+    db = MySQLdb.connect(
+        user=argv[1],
+        password=argv[2],
+        database=argv[3]
+    )
+    cursor = db.cursor()
+
+    cursor.execute('SELECT * FROM states')
+
+    for state in cursor.fetchall():
+        print(state)
+
+    if cursor:
+        cursor.close()
+    if db:
+        db.close()
